@@ -27,9 +27,15 @@ python manage.py runserver
 
 Load the site at http://127.0.0.1:8000/admin
 
-Login credentials (for both supersuer and staff)
-
 ```
+Login credentials (for both superuser and staff)
+
 superuser - (username = admin) (password = password123)
 staff - (username = staff) (password = password123)
 ```
+
+![](img/screenshot-1.png)
+<!-- ![screenshot](img/screenshot-1.png) -->
+
+![](img/screenshot-2.png)
+<!-- ![screenshot](img/screenshot-2.png) -->
