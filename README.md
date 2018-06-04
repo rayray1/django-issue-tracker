@@ -1,15 +1,15 @@
 # Django Issue Tracker
 
-A simple issue tracker in Django
+A simple issue tracker in django
 
 ## Features
 
-* Django 2.0 and Python 3.6
-* Pipenv for virtualenv
+* django 2.0 and python 3.6
+* pipenv for virtualenv
 
 ## First-time setup
 
-1.  Make sure Python 3.6x and Pipenv are already installed
+1.  Make sure python 3.6x and pipenv are already installed
 2.  Clone the repo and configure the virtualenv
 
 ```
@@ -19,25 +19,17 @@ pipenv install
 pipenv shell
 ```
 
-3.  Set up the initial migration and build the database
-
-```
-python manage.py makemigrations applications
-python manage.py migrate
-```
-
-4.  Create a superuser account
-
-```
-python manage.py createsuperuser
-(username = admin)
-(password = password123)
-```
-
-5.  Confirm everything is working and login via the django admin page
+3.  Login and view list via the django admin page
 
 ```
 python manage.py runserver
 ```
 
 Load the site at http://127.0.0.1:8000/admin
+
+Login credentials (for both admin and staff)
+
+```
+admin - (username = admin) (password = password123)
+staff - (username = staff) (password = password123)
+```
