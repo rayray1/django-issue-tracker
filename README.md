@@ -25,7 +25,7 @@ pipenv shell
 python manage.py runserver
 ```
 
-Load the site at http://127.0.0.1:8000/admin
+4.  Load the site at http://127.0.0.1:8000/admin
 
 ```
 Login credentials (for both superuser and staff)
